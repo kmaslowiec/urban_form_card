@@ -2,8 +2,6 @@
 <resources>
     <!-- layout dimensions-->
     <dimen name="margin">15dp</dimen>
-    <!--end-->
-
 
 
 </resources>

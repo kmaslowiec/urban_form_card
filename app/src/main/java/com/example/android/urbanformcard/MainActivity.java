@@ -16,7 +16,13 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, getResources().getString(R.string.hello_toast), Toast.LENGTH_SHORT).show();
     }
 
-    public void website(View v){
+    /**
+     * connects ImageView with the web browser
+     *
+     * @param v
+     */
+
+    public void website(View v) {
 
         Uri webpage = Uri.parse(getResources().getString(R.string.web));
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
@@ -30,10 +36,11 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * connect with the e-mail app in the device to send the e-mail
+     *
      * @param v
      */
 
-    public void sentEmail(View v){
+    public void sentEmail(View v) {
 
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:info@urbanform.eu")); // only email apps should handle this
@@ -47,10 +54,11 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * connect with the phone app in the device to call the company
+     *
      * @param v
      */
 
-    public void call(View v){
+    public void call(View v) {
 
         Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:" + getResources().getString(R.string.phone)));
@@ -62,10 +70,11 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * finds the location on the device's map
+     *
      * @param v
      */
 
-    public void location(View v){
+    public void location(View v) {
 
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setData(Uri.parse("geo:0,0?q=16b+Gdanska+Szczecin+Poland"));

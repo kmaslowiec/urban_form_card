@@ -1,15 +1,11 @@
 <resources>
     <string name="app_name">Urban Form Card</string>
 
-
     <string name="hello_toast">Click on logo to access our website</string>
 
     <string name="contact">Contact us:</string>
-
     <string name="web">http://urbanform.eu/</string>
-
     <string name="email">Send e-mail: info@urbanform.eu</string>
-
     <string name="phone_number_key">Call us: 669\-557\-776</string>
     <string name="phone">669557776</string>
     <string name="visit">Visit us at:</string>

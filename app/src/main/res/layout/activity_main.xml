@@ -8,17 +8,17 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <!-- IMAGE VIEW -->
 
         <ImageView
-            android:onClick="website"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="@dimen/margin"
+            android:onClick="website"
             android:src="@drawable/urban_form" />
 
         <!-- CONTACT US KEY-->
@@ -38,44 +38,50 @@
 
         <TextView
             android:id="@+id/e-mail_key"
-            android:onClick="sentEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/margin"
+            android:onClick="sentEmail"
             android:text="@string/email"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/font" />
 
+        <!-- CALL US KEY  -->
 
         <TextView
-            android:onClick="call"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/margin"
+            android:onClick="call"
             android:text="@string/phone_number_key"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/font" />
 
+
+        <!-- VISIT US AT KEY  -->
+
         <TextView
-            android:onClick="location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/margin"
+            android:onClick="location"
             android:text="@string/visit"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/font"
             android:textStyle="bold" />
 
+        <!-- ADDRESS  -->
+
         <TextView
-            android:onClick="location"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/margin"
             android:gravity="center"
+            android:onClick="location"
             android:text="@string/address"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/font" />
