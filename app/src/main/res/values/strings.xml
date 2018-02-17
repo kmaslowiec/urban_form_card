@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Urban Form Card</string>
+
+    <string name="company_name">Urban Form</string>
+    <string name="contact">Contact us:</string>
+
+    <string name="email">e-mail: info@urbanform.eu</string>
+
+    <string name="phone_number_key">phone: 669\-557\-776</string>
+    <string name="visit">Visit us at:</string>
+    <string name="address">
+        Gdańska 16 b\n
+        70-661 Szczecin\n
+        Poland\n
+    </string>
+
+</resources>
